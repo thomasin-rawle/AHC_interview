@@ -1,0 +1,25 @@
+{
+  "name": "ahc_interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generateLyrics.js",
+  "dependencies": {
+    "chai": "^4.2.0"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0"
+  },
+  "scripts": {
+    "test": "mocha ./spec/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tommyrawle/AHC_interview.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tommyrawle/AHC_interview/issues"
+  },
+  "homepage": "https://github.com/tommyrawle/AHC_interview#readme"
+}
