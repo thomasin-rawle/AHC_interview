@@ -15,7 +15,11 @@ describe('generateLyrics', () => {
     it('should output correct lines for one bottle', () => {
         expect(generateLyrics(1)).to.equal(oneBottle + noBottles)
     });
-    it('should output correct lines for one bottle', () => {
-        expect(generateLyrics(2)).to.equal(oneBottle + noBottles)
+    // it('should output list of slurred lines for less than 50', () => {
+    //     //expect(generateLyrics(2)).to.equal(oneBottle + noBottles)
+    //     expect(generateLyrics(49)).to.equal(oneBottle + noBottles)
+    // });
+    it('should output list of sober lyrics + slurred ones for number over 50', () => {
+        expect(generateLyrics(99)).to.equal(oneBottle + noBottles)
     });
 });
